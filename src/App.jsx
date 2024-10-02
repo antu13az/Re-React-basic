@@ -1,5 +1,6 @@
 import "./App.css";
 import StudentCount from "./StudentCount";
+import Users from "./Users";
 
 // const students = [
 //   { name: "John", age: 20, grade: "A", subject: "Math" },
@@ -13,6 +14,7 @@ function App() {
     <>
       <h1>React Practice Again</h1>
       <StudentCount />
+      <Users/>
     </>
   );
 }
