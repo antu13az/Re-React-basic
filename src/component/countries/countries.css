@@ -1,0 +1,11 @@
+.countryHeading {
+    background-color: #012324;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px 0px;
+    width: 35rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    box-shadow: 7px 5px 7px 0px #434c4c85;
+}

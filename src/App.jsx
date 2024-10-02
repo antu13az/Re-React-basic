@@ -1,6 +1,5 @@
 import "./App.css";
-import StudentCount from "./StudentCount";
-import Users from "./Users";
+import Countries from "./component/countries/Countries";
 
 // const students = [
 //   { name: "John", age: 20, grade: "A", subject: "Math" },
@@ -12,9 +11,7 @@ import Users from "./Users";
 function App() {
   return (
     <>
-      <h1>React Practice Again</h1>
-      <StudentCount />
-      <Users/>
+      <Countries/>
     </>
   );
 }
