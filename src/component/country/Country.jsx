@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
 import "./country.css";
-const Country = ({ country }) => {
-  console.log(country);
+const Country = ({ country, handleVisitedCountry }) => {
+//   console.log(handleVisitedCountry);
   const { common } = country.name;
   const { png } = country.flags;
+
   return (
     <>
       <section>
@@ -11,11 +12,7 @@ const Country = ({ country }) => {
           <h3>Country Name:{common}</h3>
           <img className="countryImg" src={png} alt="" />
           <br />
-          <button className="btnClass"
-            style={{
-              
-            }}
-          >
+          <button onClick={() => handleVisitedCountry(country)} className="btnClass">
             Add to visited
           </button>
         </div>
