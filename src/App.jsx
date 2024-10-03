@@ -1,5 +1,5 @@
 import "./App.css";
-import Bottols from "./bottolsCompo/bottols/Bottols";
+import Bottols from "./component/bottolsCompo/bottols/Bottols";
 import Countries from "./component/countries/Countries";
 
 // const students = [
