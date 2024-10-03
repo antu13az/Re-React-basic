@@ -17,11 +17,10 @@
   display: flex;
   font-size: 18px;
   align-items: center;
-  padding: 18px 57px;
+  padding: 12px 40px;
   margin-top: 20px;
   cursor: pointer;
 }
 .addToCartBtn:hover{
-    background: rgb(1, 9, 10);
-    
+    background: rgb(1, 9, 10);   
 }
