@@ -1,4 +1,5 @@
 import "./App.css";
+import Bottols from "./bottolsCompo/bottols/Bottols";
 import Countries from "./component/countries/Countries";
 
 // const students = [
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Countries/>
+      <Bottols/>
     </>
   );
 }

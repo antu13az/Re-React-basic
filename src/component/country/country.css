@@ -2,16 +2,12 @@ img.countryImg {
   width: 200px;
 }
 
-.singleCountry {
+/* .singleCountry {
   border: 1px solid #220404;
-  /* margin: 0 auto; */
   text-align: center;
   height: 225px;
-  /* background: red; */
-  /* padding: 18px; */
-  /* margin: 0 10px; */
   border-radius: 12px;
-}
+} */
 .btnClass {
   background: black;
   color: white;

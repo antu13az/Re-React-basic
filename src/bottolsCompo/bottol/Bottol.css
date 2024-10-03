@@ -1,0 +1,27 @@
+.singleBottleContainer {
+  border: 1px solid tomato;
+  border-radius: 15px;
+  padding: 20px;
+}
+.bottleImg {
+  width: 80%;
+}
+.addToCartBtn {
+  margin-top: 14px;
+  margin: 0 auto;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  background: #001f2e;
+  border: none;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  padding: 18px 57px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.addToCartBtn:hover{
+    background: rgb(1, 9, 10);
+    
+}
